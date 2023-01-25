@@ -59,7 +59,7 @@ function CleanInput (input) {
         } else if (input_array[i] == "+") {
             input_array[i] = ` <span class="operator">÷</span> `;
         } else if (input_array[i] == "-") {
-            input_array[i] = ` <span class="operator">÷</span> `;
+            input_array[i] = ` <span class="operator">-</span> `;
         } else if (input_array[i] == "(") {
             input_array[i] = `<span class="brackets">÷</span>`;
         } else if (input_array[i] == ")") {
